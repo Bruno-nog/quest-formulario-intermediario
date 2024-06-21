@@ -25,7 +25,7 @@ Desafio feito com HTML, CSS E JS. A validação do formulário foi feito utiliza
 
 ## Demo
 
-[Link para a demonstração do projeto)](https://bruno-nog.github.io/quest-formulario-de-validacao/)
+[Link para a demonstração do projeto)](https://bruno-nog.github.io/quest-formulario-intermediario/)
 
 ## Contato
 
