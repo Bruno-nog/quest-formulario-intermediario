@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest Dev Quest</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet"   href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="info">
+            <h1 class="title">Ficou com dúvida?<br> Nos mande uma mensagem!</h1>
+            <p class="description">Caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </div>
+        <div class="container">
+            <form>
+                <div class="input-container">
+                    <input type="text" name="name" id="name" class="inputs" placeholder="Nome completo *" autocomplete="given-name">
+                    <span class="campo-obrigatorio">campo obrigatório</span>
+                </div>
+                <div class="input-container">
+                    <input type="email" name="email" id="email" class="inputs"placeholder="Email *" autocomplete="email">
+                    <span class="campo-obrigatorio">campo obrigatório</span>    
+                </div>
+                <div class="input-container">
+                    <input type="tel" name="telefone" id="telefone" class="inputs" placeholder="Telefone *" autocomplete="tel">
+                    <span class="campo-obrigatorio">campo obrigatório</span>
+                </div>
+                <div class="input-container">
+                    <textarea name="mensagem" id="mensagem" class="inputs" placeholder="Mensagem *"></textarea>
+                    <span class="campo-obrigatorio">campo obrigatório</span>
+                </div>
+                <p class="terms">*campos obrigatórios</p>
+                <button type="submit" id="btn-register" class="btn-register">Enviar</button>
+            </form>
+        </div>
+    </main>
+    <script src="./src/js/script.js"></script>
+</body>
+</html>

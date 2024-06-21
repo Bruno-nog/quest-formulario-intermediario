@@ -1,0 +1,19 @@
+@media(max-width: 550px) {
+
+    main {
+        flex-wrap: wrap;
+    }
+    main .info .title {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    main .info .description {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+    
+}
